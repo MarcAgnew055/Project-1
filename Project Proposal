@@ -1,6 +1,16 @@
 #Project Name: Count of Monti Crypto
-#Project Members: Matt Pretel, Jacob Edelbrock, Gerald, Marc Agnew 
-#Project Description: Use API to pull 10 chosen crypto currency historical data sets. Perfrom a preliminary analsyis on historical data set to determine metrics 
-such as beta against bitcoin, volativity, historical gain/loss etc 
-	- Present 
-
+#Project Members: Matt Pretel, Jacob Edelbrock, Gerald Howard, Marc Agnew 
+#Project Description: Use API to pull 5-10 chosen crypto currency historical data sets. Perfrom a  analsyis on historical data to determine metrics 
+such as beta against bitcoin, volativity, historical gain/loss etc. Peform time series analysis to find the best perfomers over 24 months. 
+	- Present on dashboard
+	- Allow user to input weighted distribution and run* (depends on complexity and time frame. This is nice to have for the project but will be phase 2 if time allows)
+	- Run monti carlo simulation and display results in dashboard 
+#Datasets: Alpaca API, transorm into dataframe, run analysis 
+#Breakdown of tasks:
+- Set up API to pull historical data on 10 cyrpto currencies 
+	- Determine 10 crypto's to pull
+- Build data frame used for time series and peformance analysis 
+- Perform analytics and make anltyics file 
+- Pull analytics into dashboard of top 5 performing cyrpto
+- Configure Monti Carlo silulation allows variable weighted distribution of top 5 cryptos 
+- Use monti carlo results to create visuals and display on second dashboard tab 
