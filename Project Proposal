@@ -1,0 +1,6 @@
+#Project Name: Count of Monti Crypto
+#Project Members: Matt Pretel, Jacob Edelbrock, Gerald, Marc Agnew 
+#Project Description: Use API to pull 10 chosen crypto currency historical data sets. Perfrom a preliminary analsyis on historical data set to determine metrics 
+such as beta against bitcoin, volativity, historical gain/loss etc 
+	- Present 
+
